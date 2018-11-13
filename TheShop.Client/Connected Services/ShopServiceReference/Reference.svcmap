@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ff06c515-dff7-4b4a-a7aa-90c76e03c9da" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9000/Design_Time_Addresses/TheShop.Service/ShopService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="4dbe4837-999b-4f54-a649-18fe4329f56e" SourceId="1" SourceUrl="http://localhost:9000/Design_Time_Addresses/TheShop.Service/ShopService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="67a441fc-457f-4d74-b46e-1cef54855a9f" SourceId="1" SourceUrl="http://localhost:9000/Design_Time_Addresses/TheShop.Service/ShopService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="9db10428-db52-4407-bbaa-6d8f450cf40a" SourceId="1" SourceUrl="http://localhost:9000/Design_Time_Addresses/TheShop.Service/ShopService/mex" />
+    <MetadataFile FileName="TheShop.Model.xsd" MetadataType="Schema" ID="dc0b0d42-1f21-436a-8a0f-3a3cffad7a51" SourceId="1" SourceUrl="http://localhost:9000/Design_Time_Addresses/TheShop.Service/ShopService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
