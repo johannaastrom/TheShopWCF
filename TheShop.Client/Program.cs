@@ -20,7 +20,6 @@ namespace TheShop.Client
 				}
 
 				Console.WriteLine("Press A to add, R to remove and U to update product.");
-
 				switch (Console.ReadKey(true).Key)
 				{
 					case ConsoleKey.A:
